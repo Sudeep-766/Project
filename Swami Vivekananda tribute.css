@@ -1,0 +1,40 @@
+html{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+#main{
+    background-color: rgb(147, 224, 243);
+}
+#image{
+    border-radius: 60%;
+    position: relative;
+    margin-left: 50;
+    margin-right:50;
+    max-width: none;
+}
+#img-div {
+    text-align: center;
+    display: block;
+
+    filter: grayscale(100%);
+    width: 100%;
+ }
+ 
+ #img {
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+   padding-top: 10px;
+   max-width: 100%; 
+ }
+ #tribute-info{
+     display: block;
+     text-align: center;
+ }
+ #foot-tribute{
+     text-align: center;
+     
+ }
