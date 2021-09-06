@@ -1,0 +1,21 @@
+html {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background-image: url(../tribute/survey\ img.jpg);
+  color: rgb(0, 0, 0);
+}
+#eye{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
+#heading{
+    text-align: center;
+}
+#survey-form{
+    text-align: center;
+}
+#foot{
+    background-color: rgb(170, 191, 212);
+}

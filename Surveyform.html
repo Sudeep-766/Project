@@ -1,0 +1,183 @@
+<link rel="stylesheet" href="surveyform.css" />
+
+<!DOCTYPE html>
+<html>
+  <header id="heading">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      The data collected is to be used in the survey of office works.
+    </p>
+    <img id="eye" src="../Website/eye-mouse.webp">
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name"
+        >Name should be in Capital Letter:</label
+      >
+
+      <input
+        id="name"
+        type="name"
+        required
+        name="name"
+        placeholder="write your name"
+        class="form-control"
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email must be active:</label>
+      <input
+        type="email"
+        pattern="[^ @]*@[^ @]*"
+        id="email"
+        name="email"
+        class="form-control"
+        placeholder="write your email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Number should be in range between 0 to 10.</label
+      >
+
+      <input
+        type="number"
+        name="number"
+        class="form-control"
+        min="0"
+        max="10"
+        id="number"
+        placeholder="Enter number"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <p>
+        Which option best describes your current role?
+        <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select current role</option>
+          <option value="student">Student</option>
+          <option value="job">Full-time-job</option>
+          <option value="Learner">Full time learner</option>
+          <option value="prefer-no">Prefer not to say.</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+    </div>
+
+    <div class="form-group">
+      <p>Would you suggest Sudeep for being good front-end-developer?</p>
+      <label>
+        <input
+          name="user-recommend"
+          type="radio"
+          value="definitely"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="may-be"
+          type="radio"
+          class="input-radio"
+        />May-be</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="not-sure"
+          type="radio"
+          class="radio-input"
+        />Not-sure</label
+      >
+    </div>
+    <div class="form-group">
+      <p>What is your Favourite from Sudeep Life?</p>
+      <select id="most-like" class="form-control" name="mostlike" required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="communication">Communication-style</option>
+        <option value="Struggle">Struggle</option>
+        <option value="attitude">Attitude towards life</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>What would you like to see improved?</p>
+      <label
+        ><input
+          name="prefer"
+          value="front-end developement"
+          type="checkbox"
+          class="input-checkbox"
+        />Front-end-developement</label
+      >
+      <label
+        ><input
+          name="prefer"
+          class="input-checkbox"
+          value="back-end-developement"
+          type="checkbox"
+        />Back-end-developement</label
+      >
+      <label
+        ><input
+          name="prefer"
+          type="checkbox"
+          class="input-checkbox"
+          value="stock-market"
+        />Stock-Market</label
+      >
+      <label
+        ><input
+          name="prefer"
+          type="checkbox"
+          class="input-checkbox"
+          value="guitar"
+        />Guitar</label
+      >
+      <label
+        ><input
+          name="prefer"
+          type="checkbox"
+          class="input-checkbox"
+          value="Cyber-security"
+        />Cyber-Security</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="gitter-help-rooms"
+          type="checkbox"
+          class="input-checkbox"
+        />Gitter help rooms</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="additional-courses"
+          type="checkbox"
+          class="input-checkbox"
+        />Additional Courses</label
+      >
+    </div>
+    <div class="form-group">
+      <p>Any Comments or Suggetions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here....."
+      ></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Submit</button>
+    </div>
+    <footer id="foot">
+      <p><strong>Made with Love</strong></p>
+      <a href="https://www.instagram.com/sudeep19_ghosh/" target="_blank"><u>Developer contact@Sudeep</u></a>
+    </footer>
+  </form>
+</html>
