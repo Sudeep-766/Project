@@ -1,0 +1,116 @@
+html {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(28, 129, 196);
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  right: 100;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-top: 1.5em;
+}
+#header-img {
+  position: absolute;
+  right: 37em;
+  margin-top: 5em;
+  border-radius: 50%;
+  margin-bottom: 5em;
+}
+
+header {
+  top: 0;
+  display: flex;
+  background-color: rgba(156, 248, 213, 0.596);
+  right: 120;
+  align-items: center;
+  height:8em;
+
+}
+
+@media (max-width: 100px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+#bio {
+  position: relative;
+  top: 25em;
+}
+#product {
+  margin-top: 450px;
+  margin-left: 40%;
+}
+#pricetag {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#first-table {
+  border: 2px solid;
+  flex: 1;
+  max-width: 30%;
+  float: left;
+}
+#second-table {
+  float: right;
+  border: 2px solid;
+  flex: 1;
+  max-width: 30%;
+}
+#Features {
+  margin-top: 28em;
+  text-align: center;
+}
+#companywork {
+  top: 3.5em;
+  position: relative;
+  left: 28.5em;
+}
+#pricetag {
+  top: 8em;
+  position: relative;
+}
+#first-table {
+  background-color: rgb(199, 205, 207);
+}
+.btnselect:hover {
+  background-color: rgb(56, 240, 178);
+}
+#second-table {
+  background-color: rgb(199, 205, 207);
+}
+.btn2:hover{
+  background-color: rgb(56, 240, 178);
+}
+#input{
+  top: 10em;
+  position: relative;
+  left: 40em;
+}
+#submit:hover{
+  background-color: rgb(56, 240, 178);
+}
+.hr {
+  top: 12em;
+  position: relative;
+}
+#foot {
+  top: 15em;
+  position: relative;
+  left: 41.5em;
+}
+#commentary {
+  justify-self: center;
+  position: relative;
+  bottom: 1em;
+}
